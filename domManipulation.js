@@ -1,4 +1,4 @@
-## Manipulating the DOM with JavaScript
+Manipulating the DOM with JavaScript
 
 // Creating, adding and removing:
 document .createElement ( 'HTMLTag'); // Create an element
