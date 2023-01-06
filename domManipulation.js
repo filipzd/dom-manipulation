@@ -16,7 +16,6 @@ element.insertAdjacentText //
   list.insertAdjacentHTML('afterbegin', '<li>HTML</li>');
   list.insertAdjacentHTML('beforeend', '<li>JavaScript</li>');
   list.insertAdjacentHTML('afterend', '<p>For frontend developers</p>');
-________________________________________________________________________
 
 // Content setting:
 element.innerHTML = "HTML content"; // Set HTML content inside element
