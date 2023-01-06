@@ -2,5 +2,5 @@
 
 **to do:**
 - [ ] update readme file
-- [ ] refactor current code
+- [X] refactor current code
 - [ ] add new code
