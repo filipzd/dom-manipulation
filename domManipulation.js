@@ -7,6 +7,17 @@ document.body.prepend(myElement); // Insert first
 parentElement. insertBefore(newElement, existingElement); // Insert before 
 element.remove(); // Remove element
 
+element.insertAdjacentHTML // 
+element.insertAdjacentText // 
+// Example:
+  let list = document.querySelector('#list');
+
+  list.insertAdjacentHTML('beforebegin', '<h2>Web Technology</h2>');
+  list.insertAdjacentHTML('afterbegin', '<li>HTML</li>');
+  list.insertAdjacentHTML('beforeend', '<li>JavaScript</li>');
+  list.insertAdjacentHTML('afterend', '<p>For frontend developers</p>');
+________________________________________________________________________
+
 // Content setting:
 element.innerHTML = "HTML content"; // Set HTML content inside element
 element. innerText = "text content"; // Set text (preserves formatting)
