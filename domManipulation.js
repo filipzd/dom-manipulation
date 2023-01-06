@@ -1,17 +1,17 @@
 Manipulating the DOM with JavaScript
 
 // Creating, adding and removing:
-document .createElement ( 'HTMLTag'); // Create an element
+document.createElement ( 'HTMLTag'); // Create an element
 document.body.append(myElement); // Insert last
 document.body.prepend(myElement); // Insert first
-parentElement. insertBefore(newElement, existingElement); // Insert before 
+parentElement.insertBefore(newElement, existingElement); // Insert before 
 element.remove(); // Remove element
-element.insertAdjacentHTML // parses the specified text as HTML or XML and inserts the resulting nodes into the DOM tree at a specified position -> https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
-element.insertAdjacentText // inserts a new text at the given position -> [https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentText]
+element.insertAdjacentHTML // String to be parsed as HTML or XML and inserted into the tree at a specified position
+element.insertAdjacentText // Inserts a new text at the given position
 
 // Content setting:
 element.innerHTML = "HTML content"; // Set HTML content inside element
-element. innerText = "text content"; // Set text (preserves formatting)
+element.innerText = "text content"; // Set text (preserves formatting)
 element.textContent = "text content"; // Set text (ignores formatting)
 
 // Working with attributes:
