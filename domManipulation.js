@@ -8,7 +8,7 @@ parentElement. insertBefore(newElement, existingElement); // Insert before
 element.remove(); // Remove element
 
 element.insertAdjacentHTML // 
-element.insertAdjacentText // 
+element.insertAdjacentText // inserts a new text at the given position (more info)[https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentText]
 // Example:
   let list = document.querySelector('#list');
 
