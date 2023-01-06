@@ -2,8 +2,8 @@ Manipulating the DOM with JavaScript
 
 // Creating, adding and removing:
 document .createElement ( 'HTMLTag'); // Create an element
-document.body.append(myElement); // Insert first
-document.body.prepend(myElement); // Insert last
+document.body.append(myElement); // Insert last
+document.body.prepend(myElement); // Insert first
 parentElement. insertBefore(newElement, existingElement); // Insert before 
 element.remove(); // Remove element
 
