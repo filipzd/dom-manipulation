@@ -6,16 +6,8 @@ document.body.append(myElement); // Insert last
 document.body.prepend(myElement); // Insert first
 parentElement. insertBefore(newElement, existingElement); // Insert before 
 element.remove(); // Remove element
-
-element.insertAdjacentHTML // 
-element.insertAdjacentText // inserts a new text at the given position (more info)[https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentText]
-// Example:
-  let list = document.querySelector('#list');
-
-  list.insertAdjacentHTML('beforebegin', '<h2>Web Technology</h2>');
-  list.insertAdjacentHTML('afterbegin', '<li>HTML</li>');
-  list.insertAdjacentHTML('beforeend', '<li>JavaScript</li>');
-  list.insertAdjacentHTML('afterend', '<p>For frontend developers</p>');
+element.insertAdjacentHTML // parses the specified text as HTML or XML and inserts the resulting nodes into the DOM tree at a specified position -> https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+element.insertAdjacentText // inserts a new text at the given position -> [https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentText]
 
 // Content setting:
 element.innerHTML = "HTML content"; // Set HTML content inside element
