@@ -1,5 +1,10 @@
 Manipulating the DOM with JavaScript
 
+// Basic DOM manipulation
+document.querySelector(); // Recommended modern approach
+document.getElementById(); // Selects an element with a given id attribute
+document.getElementsByTagName(); // returns an array-like object containing all the elements on the page of a given type, for example <p>
+
 // Creating, adding and removing:
 document.createElement('HTMLTag'); // Create an element
 document.body.append(myElement); // Insert last
